@@ -11,7 +11,7 @@ const FHIR_SERVERS = {
         scope: "launch/patient patient/*.read openid fhirUser",
         redirectUri: `${GITHUB_PAGES_URL}/app.html`,
         launchUri: `${GITHUB_PAGES_URL}/launch.html`,
-        iss: null,
+        iss: "https://launch.smarthealthit.org/v/r4/sim/WzMsIiIsIiIsIkFVVE8iLDAsMCwwLCIiLCIiLCIiLCIiLCIiLCIiLCIiLDAsMSwiIl0/fhir",
         description: "Public testing sandbox with sample patients"
     },
     
@@ -19,7 +19,7 @@ const FHIR_SERVERS = {
     cigna: {
         name: "Cigna Developer API",
         clientId: "9ffe6e94-9a21-473d-8e7b-759b4c431b13",
-        clientSecret: "706170b4-3f2f-464f-8acd-6b1eeb84aa7c", // Add your client secret here
+        clientSecret: "706170b4-3f2f-464f-8acd-6b1eeb84aa7c",
         scope: "patient/*.read launch/patient openid fhirUser",
         redirectUri: `${GITHUB_PAGES_URL}/app.html`,
         launchUri: `${GITHUB_PAGES_URL}/launch.html`,
